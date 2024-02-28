@@ -253,7 +253,7 @@ class _QuizUIAppState extends State<QuizUIApp> {
           backgroundColor: Colors.blue,
           child: const Icon(
             Icons.forward,
-            color: Colors.orange,
+            color: Color.fromARGB(255, 163, 114, 40),
           ),
         ),
       );
