@@ -79,7 +79,6 @@ class _QuizUIAppState extends State<QuizUIApp> {
   int numberOfCorrectAns = 0;
   MaterialStateProperty<Color?> checkAns(int buttonIndex) {
     if (selectedAns != -1) {
-      print('hree');
       if (buttonIndex == allQuestions[questionCounter]["answerIndex"]) {
         return const MaterialStatePropertyAll(Colors.green);
       } else if (selectedAns == buttonIndex) {
